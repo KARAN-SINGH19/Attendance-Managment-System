@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 60%;
+    margin: 80px 400px 50px 400px;
+    outline: none;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    padding: 20px 20px 10px 20px;
+}
+
+.btn {
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 13px;
+    
+}
+
+.btn-success {
+    background-color: #28a745; 
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+}
+
+.table{
+    margin-top: 20px;
+}

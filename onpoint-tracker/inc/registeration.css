@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: white;
+}
+
+
+.list-1{
+    padding: 0;
+    height: 100vh;
+    width: 350px;
+    position: fixed;
+    background-color: #003DB2;
+}
+
+.container-fluid{
+    position: fixed;
+    z-index: 1000;  
+}
+
+.a-tag {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #003DB2;
+    position: relative;
+    margin: 10px 50px 10px 20px;
+    width: 85%;
+    font-weight: 600;
+}
+
+.li-tag{
+    margin: 40px 0;
+}
+
+ .container-1 {
+    width: 50%;
+    margin: 50px 500px 80px 500px;
+    outline: none;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    height: auto; 
+}
+
+.reg-form {
+    padding: 20px 120px 20px 150px;
+    margin: 15px 0;
+}
+
+.reg-form h1 {
+    text-align: center;
+    color: black;
+    margin: 15px 0;
+    font-weight: 800;
+}
+
+.reg-form input {
+    justify-content: center;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 90%;
+    height: 60px;
+    font-size: 20px;
+    padding: 20px 45px 20px 15px;
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+.reg-form input::placeholder {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.register-btn {
+    margin: 20px 0;
+    background-color: #003DB2;
+    width: 40%;
+    height: 60px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 170px;
+}
+
+.register-btn:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container .email-input{
+    width: 95%;
+}
+
+.password-icon {
+    position: absolute;
+    right: 94px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bx{
+    position: absolute;
+    left: 38px; 
+    top: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+
+.reg-form p {
+    text-align: center;
+    color: #003DB2;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+select {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px;
+    width: 95%;
+    margin: 15px 0;
+    background-color: white;
+    border: 2px solid black;
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0;
+
+} 
+
+.flex-container{
+    display: flex;
+    margin: 15px 0;
+}
+
+.flex-container-2{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+}
+
